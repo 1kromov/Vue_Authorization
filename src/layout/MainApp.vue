@@ -2,8 +2,6 @@
     <!-- <template v-if="!isAuth">
         <Login />
     </template> -->
-
-
     <Header />
     <main class="min-h-screen">
         <router-view></router-view>
@@ -17,6 +15,7 @@ import Footer from '../components/Footer/Footer.vue';
 import Login from '../views/Login.vue';
 export default {
     name: 'MainApp',
+
     components: {
         Header,
         Footer,
